@@ -1,0 +1,29 @@
+.about-section {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .about-section h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #006400;
+    margin: 0 0 60px;
+  }
+  
+  .about-section p {
+    margin: 10px 0;
+  }
+  
+  .about-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 50%;
+  }
+  
+  .about-images img {
+    width: 68%;
+    height: 371px;
+    border-radius: 190px;
+}
+  
