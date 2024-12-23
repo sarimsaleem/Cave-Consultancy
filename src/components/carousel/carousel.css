@@ -1,0 +1,114 @@
+/* .banner-container {
+    height: 100vh; 
+    overflow: hidden;
+  }
+   */
+  .carousel-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  .banner-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .carousel-overlay {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+  }
+  
+  .carousel-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .carousel-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .carousel-button {
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #70543E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-button:hover {
+    background-color: #4b3627;
+  }
+
+  .carousel-button:active{
+    background-color: #4b3627 !important;
+  }
+  
+  
+
+
+
+
+  /* .crousel {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: url('../../../assets/banner.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.crousel-overlay {
+    text-align: center;
+    margin: 70px 0 0 0;
+}
+
+.branding-crousel-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.breadcrumb {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #aaa;
+}
+
+.breadcrumb span {
+    margin: 0 5px;
+} 
+    
+
+
+import React from 'react';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import CrouselVideo from '../../assets/crousel.mp4';
+import './carousel.css';
+
+const Carousl = () => {
+  return (
+    <div className="banner-container">
+      <video className="carousel-video" src={CrouselVideo} autoPlay loop muted />
+    </div>
+  );
+};
+
+export default Carousl;
+
+
+*/
