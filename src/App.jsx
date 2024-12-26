@@ -4,6 +4,8 @@ import Header from './components/header/header'
 import Carousel from './components/carousel/Carousel';
 import Footer from './components/footer/Footer';
 import About from './components/about/About';
+import Blog from './components/detail/Detail';
+import Contact from './components/contact/Contact';
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
       <Header />
       <Carousel />
       <About />
+      <Blog />
+      <Contact />
       <Footer />
     </>
   )

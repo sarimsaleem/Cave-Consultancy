@@ -5,7 +5,7 @@
 .consultation-btn {
     background: transparent !important;
     outline: none !important;
-    border: 2px solid #4b3627 !important;
+    border: 2px solid #006400 !important;
     margin-left: 20px;
     font-size: 14px;
     border-radius: 0 !important;
@@ -15,14 +15,14 @@
 }
 
 .consultation-btn:hover {
-    background: #4b3627 !important;
-    border: 2px solid #4b3627 !important;
+    background: #006400 !important;
+    border: 2px solid#006400 !important;
 }
 
 .consultation-btn:focus,
 .consultation-btn:active {
     background-color: transparent !important;
-    border-color: #4b3627 !important;
+    border-color: #006400 !important;
 }
 
 .navbar {
@@ -47,7 +47,6 @@
 
 .navbar .dropdown-menu .dropdown-item {
     color: #c8c8c8;
-    font-family: 'Open Sans';
     text-transform: uppercase;
     font-size: 11px;
     padding: 10px;

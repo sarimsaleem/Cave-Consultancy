@@ -36,7 +36,7 @@
     padding: 0.8rem 2rem;
     font-size: 1.2rem;
     color: white;
-    background-color: #70543E;
+    background-color: #006400;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -44,67 +44,9 @@
   }
 
   .carousel-button:hover {
-    background-color: #4b3627;
+    background-color: #006400;
   }
 
   .carousel-button:active {
-    background-color: #4b3627 !important;
+    background-color: #006400 !important;
   }
-
-
-
-
-
-
-  /* .crousel {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    background: url('../../../assets/banner.png');
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-.crousel-overlay {
-    text-align: center;
-    margin: 70px 0 0 0;
-}
-
-.branding-crousel-heading {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin: 0;
-    text-transform: uppercase;
-}
-
-.breadcrumb {
-    margin-top: 10px;
-    font-size: 1rem;
-    color: #aaa;
-}
-
-.breadcrumb span {
-    margin: 0 5px;
-} 
-    
-
-
-import React from 'react';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import CrouselVideo from '../../assets/crousel.mp4';
-import './carousel.css';
-
-const Carousl = () => {
-  return (
-    <div className="banner-container">
-      <video className="carousel-video" src={CrouselVideo} autoPlay loop muted />
-    </div>
-  );
-};
-
-export default Carousl;
-
-
-*/

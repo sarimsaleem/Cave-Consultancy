@@ -1,0 +1,48 @@
+.contact-parent {
+    padding: 70px 0;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-image {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.form-control::placeholder {
+    color: rgb(209, 203, 203);
+}
+
+.form-control:active,
+.form-control:focus {
+    border: none;
+    outline: none;
+}
+
+.contact-para {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.contact-heading {
+    font-size: 40px;
+    color: #006400;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.contact-btn{
+    background: #006400;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+}
+.contact-btn:hover, .contact-btn:active{
+
+    background: #006400 !important;
+}
