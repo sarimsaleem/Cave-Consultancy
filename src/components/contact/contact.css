@@ -13,6 +13,10 @@
     border-radius: 10px;
 }
 
+.form-control {
+padding: 7px 10px;
+}
+
 .form-control::placeholder {
     color: rgb(209, 203, 203);
 }
