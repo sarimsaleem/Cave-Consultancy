@@ -27,16 +27,8 @@ const Contact = () => {
                 <h1 className='component-heading' style={{marginBottom:"20px"}}>Get In Touch</h1>
                 <p className='text-center contact-para'>If you have any questions, feel free to reach out to us!</p>
                 <Row>
-                    <Col md={6}>
-                        <div className="contact-info">
-                            <img
-                                src={contactImage}
-                                alt="Contact Information"
-                                className="contact-image"
-                            />
-                        </div>
-                    </Col>
-                    <Col md={6}>
+                    <div className="contact-subparent">
+                    <Col md={8}>
                         <Formik
                             initialValues={{
                                 name: '',
@@ -68,7 +60,6 @@ const Contact = () => {
                                         </Col>
                                     </Row>
 
-                                    {/* Second Row: Contact and Address */}
                                     <Row>
                                         <Col md={6}>
                                             <div className="form-group">
@@ -86,7 +77,6 @@ const Contact = () => {
                                         </Col>
                                     </Row>
 
-                                    {/* Third Row: Message */}
                                     <Row>
                                         <Col>
                                             <div className="form-group">
@@ -98,14 +88,14 @@ const Contact = () => {
                                         </Col>
                                     </Row>
 
-                                    <Button variant="primary" type="submit" className="mt-4 contact-btn">
+                                    <Button variant="primary" type="submit" className="  contact-btn">
                                         Submit
                                     </Button>
                                 </Form>
                             )}
                         </Formik>
                     </Col>
-
+                    </div>
                 </Row>
             </Container>
         </div>

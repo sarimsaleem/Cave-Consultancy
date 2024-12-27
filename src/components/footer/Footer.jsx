@@ -14,7 +14,7 @@ const { Title, Text } = Typography;
 const Footer = () => {
     return (
         <>
-            <Layout.Footer className="footer" style={{ backgroundColor: '#fff', color: '#626262', padding: '40px 0 0 0' }}>
+            <Layout.Footer className="footer" style={{ backgroundColor: '#f8f8f8', color: '#626262', padding: '40px 0 0 0' }}>
                 <Container>
                     <Row gutter={[16, 16]} style={{ paddingBottom: "30px" }}>
                         <Col xs={24} sm={12} md={12} lg={7}>

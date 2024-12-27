@@ -1,20 +1,33 @@
-  
   .about-section {
       color: #333;
   }
 
   .about-section h3 {
       font-size: 28px;
-      margin-block: 15px;
+      margin: 15px 0 30px;
       color: #006400;
-      border-bottom: 2px solid #006400;
+      position: relative;
       padding-bottom: 5px;
+  }
+
+  .about-section h3::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 16%;
+      height: 2px;
+      background-color: #006400;
+  }
+
+  .bold-tag{
+    color: #006400;
   }
 
   .about-section p {
       font-size: 16px;
-      line-height: 1.8;
-      margin-bottom: 20px;
+      line-height: 1.5;
+      margin-bottom: 15px;
   }
 
   .about-section p:last-child {
@@ -35,9 +48,9 @@
   }
 
   @media (max-width: 776px) {
-    .about-images img {
-        width: 83%;
-        height: 388px;
-        border-radius: 190px;
-    }
-}
+      .about-images img {
+          width: 83%;
+          height: 388px;
+          border-radius: 190px;
+      }
+  }

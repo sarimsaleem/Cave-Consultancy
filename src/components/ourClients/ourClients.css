@@ -1,0 +1,35 @@
+
+.ourClients-parent {
+    padding: 70px 0 100px;
+    text-align: center;
+  }
+  
+  .slider-container {
+    max-width: 1200px;
+    margin: 0 auto 40px;
+  }
+  
+  .client-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .client-logo {
+    width: 223px;
+    height:100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .slick-slider .slick-track{
+    margin: 0px 0 30px;
+  }
+  .client-title {
+    /* text-align: center; */
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: 600;
+}

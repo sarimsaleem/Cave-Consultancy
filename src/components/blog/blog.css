@@ -12,25 +12,26 @@
     margin: 0 auto;
     align-items: center;
     overflow: hidden;
-}
+}  
 
 .blog-imageParent img {
     width: 570px;
     height: 400px;
     object-fit: cover;
     margin: 0 0 0 160px;
+    border-radius: 12px;
 }
 
 .blog-textParent {
     position: absolute;
-    background-color: rgba(167, 178, 195, .5);
+    background-color: rgba(255, 255, 255, .9);
     color: #333;
     padding: 20px 30px;
     max-width: 507px;
     text-align: left;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    right: 117px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    right: 117px;   
     height: 314px;
 }
 

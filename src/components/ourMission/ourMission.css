@@ -1,15 +1,36 @@
-.mision-parent{
-    padding: 70px ;
+.mision-parent {
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.mision-subparent{
-    background-image: url("../../assets/ourmission.jpeg");
-    /* background-repeat: no-repeat; */
-    /* height: 1500px; */
-    object-fit: contain;
-    padding: 70px;
+.mision-subparent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
     border-radius: 10px;
 }
+
 .mision-subparent img {
     width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.mission-text-parent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; 
+    z-index: 10; 
+}
+
+.mission-text-parent h3{
+    font-size: 30px;
+    margin-bottom: 20px;
 }

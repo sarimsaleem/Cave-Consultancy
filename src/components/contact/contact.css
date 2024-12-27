@@ -42,8 +42,14 @@
     border: none;
     padding: 10px 30px;
     letter-spacing: 1px;
+    margin: 30px 40%;
+    border-radius: 3px;
 }
 .contact-btn:hover, .contact-btn:active{
 
     background: #006400 !important;
+}
+.contact-subparent{
+    display: flex;
+    justify-content: center;
 }

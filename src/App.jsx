@@ -7,6 +7,7 @@ import About from './components/about/About';
 import Blog from './components/blog/Blog';
 import Contact from './components/contact/Contact';
 import OurMission from './components/ourMission/OurMission';
+import OurClients from './components/ourClients/OurClients';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Carousel />
       <About />
       <OurMission />
+      <OurClients />
       <Blog />
       <Contact />
       <Footer />
