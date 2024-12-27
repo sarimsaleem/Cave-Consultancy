@@ -1,10 +1,11 @@
 import React from "react";
-import blogImage from "../../assets/about.jpg";
-import "./detail.css";
+import blogImage from "../../assets/blog.jpg";
+import "./blog.css";
 
 const Blog = () => {
     return (
         <div className="bolg-parent">
+            <h1 className='component-heading'>Blog</h1>
             <div className="blog-subparent">
                 <div className="blog-imageParent">
                     <img src={blogImage} alt="Beach and Mountains" />

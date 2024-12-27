@@ -4,7 +4,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import './contact.css';
 import { Typography } from 'antd';
-import contactImage from "../../assets/contact.png"
+import contactImage from "../../assets/contact.jpg"
 
 const validationSchema = Yup.object({
     name: Yup.string().required('Name is required.').min(3, "Minimum three words required"),
@@ -24,7 +24,7 @@ const Contact = () => {
     return (
         <div className="contact-parent">
             <Container>
-                <h1 className='text-center contact-heading'>Get In Touch</h1>
+                <h1 className='component-heading' style={{marginBottom:"20px"}}>Get In Touch</h1>
                 <p className='text-center contact-para'>If you have any questions, feel free to reach out to us!</p>
                 <Row>
                     <Col md={6}>

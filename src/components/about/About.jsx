@@ -7,7 +7,7 @@ const About = () => {
     return (
         <section className="about-section" style={{ paddingBlock: "70px" }}>
             <Container>
-                <h1>About Cave Consulting</h1>
+                <h1 className="component-heading">About Cave Consulting</h1>
                 <Row className="align-items-center">
                     <Col xs={12} md={6}>
                         <div>
@@ -25,13 +25,7 @@ const About = () => {
                                 help businesses thrive.
                             </p>
                         </div>
-                        <div>
-                            <h3>Mission & Vision:</h3>
-                            <p>
-                                Our mission is to provide tailored consulting services that drive meaningful impact.
-                                Our vision is to become a trusted partner for businesses navigating complex challenges.
-                            </p>
-                        </div>
+                        
                     </Col>
                     <Col xs={12} md={6} className="text-center">
                         <div className="about-images">

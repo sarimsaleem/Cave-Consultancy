@@ -1,0 +1,15 @@
+.mision-parent{
+    padding: 70px ;
+}
+
+.mision-subparent{
+    background-image: url("../../assets/ourmission.jpeg");
+    /* background-repeat: no-repeat; */
+    /* height: 1500px; */
+    object-fit: contain;
+    padding: 70px;
+    border-radius: 10px;
+}
+.mision-subparent img {
+    width: 100%;
+}
