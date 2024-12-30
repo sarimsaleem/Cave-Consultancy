@@ -4,11 +4,11 @@ import Header from './components/header/header'
 import Carousel from './components/carousel/Carousel';
 import Footer from './components/footer/Footer';
 import About from './components/about/About';
-import Blog from './components/blog/Blog';
 import Contact from './components/contact/Contact';
 import OurMission from './components/ourMission/OurMission';
 import FAQ from './components/faqs/Faqs';
 import TestimonialCarousel from './components/testimonials/Testimonials';
+import Services from './components/services/Services';
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
       <Carousel />    
       <About />       
       <OurMission /> 
-      <Blog />
+      <Services />
       <FAQ />
       <TestimonialCarousel />
       <Contact />

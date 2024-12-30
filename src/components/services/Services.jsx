@@ -1,8 +1,8 @@
 import React from "react";
-import "./blog.css";
+import "./service.css";
 import { Button, Container, Row } from "react-bootstrap";
 
-const Blog = () => {
+const Services = () => {
     return (
         <div className="blog-container">
             <h1 className="component-heading">My Services</h1>
@@ -27,7 +27,7 @@ const Blog = () => {
                             </div>
                         </div>
                         <div className="flip flip-vertical">
-                            <div className="flip-front">
+                            <div className="flip-front2">
                                 {/* <div className="overlay"> */}
                                     <h3 className="overlay-text">Adult Counselling at Cave Counselling</h3>
                                     <Button className="carousel-button">Learn More</Button>
@@ -51,4 +51,4 @@ const Blog = () => {
     );
 };
 
-export default Blog;
+export default Services;

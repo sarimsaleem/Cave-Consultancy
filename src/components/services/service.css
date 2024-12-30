@@ -17,7 +17,8 @@
 }
 
 .flip-vertical .flip-front,
-.flip-vertical .flip-back {
+.flip-vertical .flip-back,
+.flip-front2 {
     transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.5s;
     border-radius: 10px;
     width: 100%;
@@ -30,7 +31,16 @@
 
 }
 
-.flip-front {
+.flip-front2 {
+    background: linear-gradient(#0f0f0f75, #39913a95), url('../../assets/services.jpg');
+    transform: rotateY(0deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flip-front{
     transform: rotateY(0deg);
     background: linear-gradient(#0f0f0f75, #39913a95), url('../../assets/serviceImg.jpeg');
     display: flex;
@@ -49,10 +59,8 @@
     padding: 1.5em 2em;
 }
 
-.flip:hover .flip-front {
+.flip:hover .flip-front{
     transform: rotateY(180deg);
-  
-
 }
 
 .flip:hover .flip-back {
@@ -98,7 +106,7 @@
     justify-content: center;
 }
 
-.overlay-text{
+.overlay-text {
     margin-bottom: 16px;
     margin-top: 23px;
     text-align: center;
