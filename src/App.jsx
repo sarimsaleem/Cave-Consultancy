@@ -7,18 +7,20 @@ import About from './components/about/About';
 import Blog from './components/blog/Blog';
 import Contact from './components/contact/Contact';
 import OurMission from './components/ourMission/OurMission';
-import OurClients from './components/ourClients/OurClients';
+import FAQ from './components/faqs/Faqs';
+import TestimonialCarousel from './components/testimonials/Testimonials';
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Carousel />
-      <About />
-      <OurMission />
-      <OurClients />
+      <Header />      {/* done */}
+      <Carousel />     {/* done */}
+      <About />        {/* done */}
+      <OurMission /> 
       <Blog />
+      <FAQ />
+      <TestimonialCarousel />
       <Contact />
       <Footer />
     </>

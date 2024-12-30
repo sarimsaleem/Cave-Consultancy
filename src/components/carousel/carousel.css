@@ -46,12 +46,12 @@
   }
 
   .carousel-button {
-    padding:10px 30px;
+    padding: 10px 30px;
     font-size: 1.2rem;
     color: white;
     background-color: #006400;
     border: none;
-    border-radius: 5px;
+    border-radius: 0px;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
@@ -62,4 +62,9 @@
 
   .carousel-button:active {
     background-color: #006400 !important;
+  }
+
+  .hello-span {
+    font-weight: 500;
+    font-size: 50px;
   }

@@ -15,13 +15,13 @@
       position: absolute;
       bottom: 0;
       left: 0;
-      width: 16%;
+      width: 25%;
       height: 2px;
       background-color: #006400;
   }
 
-  .bold-tag{
-    color: #006400;
+  .bold-tag {
+      color: #006400;
   }
 
   .about-section p {
@@ -39,12 +39,20 @@
       justify-content: end;
       gap: 10px;
       border-radius: 50%;
+    }
+    
+    .about-images img {
+        padding: 5px;
+      background: #006400;
+      width: 80%;
+      height: 426px;
+      border-radius: 50%;
   }
 
-  .about-images img {
-      width: 68%;
-      height: 371px;
-      border-radius: 190px;
+  .special-about-text {
+      color: #006400;
+      font-size: 36px;
+      font-weight: 600;
   }
 
   @media (max-width: 776px) {

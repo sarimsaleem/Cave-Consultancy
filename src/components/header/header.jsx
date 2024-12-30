@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import logo from "../../assets/logo.png";
 import "./header.css";
-
 const Header = ({ bgColor }) => {
+
     const [scrolled, setScrolled] = useState(false);
     // const navigate = useNavigate();
 
@@ -35,8 +35,9 @@ const Header = ({ bgColor }) => {
                     <Nav className="ms-auto">
                         <Nav.Link onClick={() => navigate("/")}>Home</Nav.Link>
                         <Nav.Link onClick={() => navigate("/about")}>About</Nav.Link>
-                        <Nav.Link onClick={() => navigate("/contact")}>Blog</Nav.Link>
-                        <Nav.Link onClick={() => navigate("/contact")}>Features</Nav.Link>
+                        <Nav.Link onClick={() => navigate("/contact")}>Services</Nav.Link>
+                        <Nav.Link onClick={() => navigate("/contact")}>Faqs</Nav.Link>
+                        <Nav.Link onClick={() => navigate("/contact")}>Testimonials</Nav.Link>
                         <Nav.Link onClick={() => navigate("/contact")}>Contact</Nav.Link>
                         <Button className='consultation-btn' onClick={() => navigate("/consultation")}>
                             Book A Consultation

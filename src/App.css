@@ -10,5 +10,6 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 40px;
     color: #006400;
     margin: 0 0 50px;
+    font-weight: 500;
     text-align: center;
 }
