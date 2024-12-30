@@ -14,9 +14,9 @@ function App() {
 
   return (
     <>
-      <Header />      {/* done */}
-      <Carousel />     {/* done */}
-      <About />        {/* done */}
+      <Header />      
+      <Carousel />    
+      <About />       
       <OurMission /> 
       <Blog />
       <FAQ />

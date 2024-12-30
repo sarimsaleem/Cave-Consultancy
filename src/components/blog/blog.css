@@ -1,86 +1,105 @@
-    .blog-container {
-        padding: 70px 0;
-    }
+.blog-container {
+    padding: 70px 0;
+}
 
-    .blog-heading {
-        font-size: 2.2em;
-        font-family: "Roboto Mono", monospace;
-    }
+.blog-heading {
+    font-size: 2.2em;
+    font-family: "Roboto Mono", monospace;
+}
 
-    .flip {
-        position: relative;
-        display: inline-block;
-        margin-right: 2px;
-        margin-bottom: 1em;
-        width: 400px;
-        height: 250px;
-    }
+.flip {
+    position: relative;
+    display: inline-block;
+    margin-right: 2px;
+    margin-bottom: 1em;
+    width: 500px;
+    height: 350px;
+}
 
-    .flip-vertical .flip-front,
-    .flip-vertical .flip-back {
-        transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.5s;
-        border-radius: 10px;
-        width: 100%;
-        height: 100%;
-        background-size: contain !important;
-        background-position: center !important;
-        color: white;
-        background-repeat: no-repeat;
-    }
+.flip-vertical .flip-front,
+.flip-vertical .flip-back {
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.5s;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+    background-position: center !important;
+    color: white;
+    background-repeat: no-repeat;
 
-    /* Front and Back Faces */
-    .flip-front {
-        transform: rotateY(0deg);
-    }
 
-    .flip-back {
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        left: 0;
-        transform: rotateY(-180deg);
-        background: #313131;
-        padding: 1em 2em;
-    }
+}
 
-    /* Flip Hover Effect */
-    .flip:hover .flip-front {
-        transform: rotateY(180deg);
-    }
+.flip-front {
+    transform: rotateY(0deg);
+    background: linear-gradient(#0f0f0f75, #39913a95), url('../../assets/serviceImg.jpeg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-    .flip:hover .flip-back {
-        transform: rotateY(0deg);
-        opacity: 1;
-    }
+.flip-back {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transform: rotateY(-180deg);
+    background: #313131;
+    padding: 1.5em 2em;
+}
 
-    /* Vertical Flip */
-    .flip.flip-vertical .flip-back {
-        transform: rotateX(-180deg);
-    }
+.flip:hover .flip-front {
+    transform: rotateY(180deg);
+  
 
-    .flip.flip-vertical:hover .flip-front {
-        transform: rotateX(180deg);
-    }
+}
 
-    .flip.flip-vertical:hover .flip-back {
-        transform: rotateX(0deg);
-    }
+.flip:hover .flip-back {
+    transform: rotateY(0deg);
+    opacity: 1;
 
-    /* Flip Content */
-    .flip-title {
-        font-size: 1.5rem;
-        text-align: center;
-        margin-bottom: 20px;
-    }
+}
 
-    .flip-description {
-        font-size: 0.9125rem;
-        line-height: 1.6;
-        color: rgb(241, 235, 235);
+.flip.flip-vertical .flip-back {
+    transform: rotateX(-180deg);
 
-    }
+}
 
-    .blog-parent{
-        display: flex;
-        justify-content: space-evenly;
-    }
+.flip.flip-vertical:hover .flip-front {
+    transform: rotateX(180deg);
+
+}
+
+.flip.flip-vertical:hover .flip-back {
+    transform: rotateX(0deg);
+}
+
+.flip-title {
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+}
+
+.flip-description {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: rgb(241, 235, 235);
+}
+
+.blog-parent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.overlay-text{
+    margin-bottom: 16px;
+    margin-top: 23px;
+    text-align: center;
+}

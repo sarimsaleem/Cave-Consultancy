@@ -1,6 +1,6 @@
 import React from "react";
 import "./blog.css";
-import { Container, Row } from "react-bootstrap";
+import { Button, Container, Row } from "react-bootstrap";
 
 const Blog = () => {
     return (
@@ -10,15 +10,14 @@ const Blog = () => {
                 <Row>
                     <div className="blog-parent">
                         <div className="flip flip-vertical">
-                            <div
-                                className="flip-front"
-                                style={{
-                                    backgroundImage:
-                                        "url(https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)",
-                                }}
-                            ></div>
+                            <div className="flip-front">
+                                {/* <div className="overlay"> */}
+                                    <h3 className="overlay-text">Child Counselling at Cave Counselling</h3>
+                                    <Button className="carousel-button">Learn More</Button>
+                                {/* </div> */}
+                            </div>
                             <div className="flip-back">
-                                <h2 className="flip-title">Children &amp; Young people</h2>
+                                <h2 className="flip-title">Child Counselling at Cave Counselling</h2>
                                 <p className="flip-description">
                                     There’s something magical about caves—their mystery sparks curiosity
                                     and a sense of adventure in children. Just like stepping into a cave,
@@ -28,15 +27,14 @@ const Blog = () => {
                             </div>
                         </div>
                         <div className="flip flip-vertical">
-                            <div
-                                className="flip-front"
-                                style={{
-                                    backgroundImage:
-                                        "url(https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)",
-                                }}
-                            ></div>
+                            <div className="flip-front">
+                                {/* <div className="overlay"> */}
+                                    <h3 className="overlay-text">Adult Counselling at Cave Counselling</h3>
+                                    <Button className="carousel-button">Learn More</Button>
+                                {/* </div> */}
+                            </div>
                             <div className="flip-back">
-                                <h2 className="flip-title">Adults</h2>
+                                <h2 className="flip-title">Adult Counselling at Cave Counselling</h2>
                                 <p className="flip-description">
                                     Life can feel overwhelming, at times it may be full of challenges, change,
                                     and uncertainty. You may feel stuck, misunderstood, or unsure where to
