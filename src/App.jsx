@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <Header />      
+      <Header />     
       <Carousel />    
       <About />       
       <OurMission /> 

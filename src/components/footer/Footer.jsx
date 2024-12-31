@@ -15,7 +15,7 @@ const Footer = () => {
                     <Row gutter={[16, 16]} style={{ paddingBottom: "30px" }}>
 
                         {/* Left Column (CAVE EXPERTISE) */}
-                        <Col xs={24} sm={12} md={7} lg={8}>
+                        <Col xs={24} sm={12} md={12} lg={8}>
                             <Title level={4} style={{ color: '#000' }}>CAVE EXPERTISE & SERVICES</Title>
                             <Text style={{ display: 'block', color: '#626262' }}>Cave Mapping & Exploration</Text>
                             <Text style={{ display: 'block', color: '#626262' }}>Speleological Research</Text>

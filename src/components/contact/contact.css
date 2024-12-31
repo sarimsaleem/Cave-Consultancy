@@ -69,3 +69,9 @@
 .contact-dropdawn {
     color: rgb(209, 203, 203);
 }
+
+@media (max-width: 767px) {
+    .contact-btn {
+        margin: 30px 30%;
+    }
+}
